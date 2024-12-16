@@ -35,31 +35,33 @@ You can install the required packages using the command:
 
 ```bash
 pip install pandas tensorflow scikit-learn
+```
 
-Project Workflow
+## Project Workflow
+1. **Data Preparation:**
+   - Load the `student-loans.csv` dataset into a Pandas DataFrame.
+   - Perform exploratory data analysis (EDA) to identify features and target variables.
+   - Standardize the data for better model performance.
 
-Data Preparation:
-Load the student-loans.csv dataset into a Pandas DataFrame.
-Perform exploratory data analysis (EDA) to identify features and target variables.
-Standardize the data for better model performance.
-Model Development:
-Build a Sequential neural network model using TensorFlow/Keras.
-Define the input, hidden, and output layers.
-Training:
-Split the data into training and testing sets.
-Train the model using the training data.
-Evaluation:
-Evaluate the model's performance on the test data using metrics like classification report.
-How to Run
+2. **Model Development:**
+   - Build a Sequential neural network model using TensorFlow/Keras.
+   - Define the input, hidden, and output layers.
 
-Clone the repository or download the notebook file.
-Open the student_loans_with_deep_learning.ipynb notebook in Jupyter Notebook or JupyterLab.
-Run each cell sequentially to execute the code and follow the workflow.
-The model's performance and results will be displayed in the output cells.
-Results
+3. **Training:**
+   - Split the data into training and testing sets.
+   - Train the model using the training data.
 
+4. **Evaluation:**
+   - Evaluate the model's performance on the test data using metrics like classification report.
+
+## How to Run
+1. Clone the repository or download the notebook file.
+2. Open the `student_loans_with_deep_learning.ipynb` notebook in Jupyter Notebook or JupyterLab.
+3. Run each cell sequentially to execute the code and follow the workflow.
+4. The model's performance and results will be displayed in the output cells.
+
+## Results
 The trained model outputs metrics such as precision, recall, and F1-score for loan risk classification. The results help in understanding the model's effectiveness and areas for improvement.
 
-Acknowledgments
-
-This project utilizes data and resources from BC-EDX. The deep learning model is built using TensorFlow and the project follows a systematic approach to machine learning.
+## Acknowledgments
+This project utilizes data and resources from [BC-EDX](https://static.bc-edx.com). The deep learning model is built using TensorFlow and the project follows a systematic approach to machine learning.
